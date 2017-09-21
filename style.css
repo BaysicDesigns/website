@@ -1,0 +1,163 @@
+.navbar-default .navbar-nav>li>a {
+  /*color: #777;*/
+  color:white;
+}
+.navbar-default .navbar-brand {
+  /*color: #777;*/
+  color:white;
+  font-weight:bold;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  /*color: #777;*/
+  color:#CCC;
+}
+.navbar-default .navbar-brand:hover {
+  /*color: #777;*/
+  color: #CCC;
+}
+.navbar-default {
+  border-radius: 0;
+  box-shadow: 0px -1px 10px;
+  /*background: white;*/
+  background: black;
+  opacity: 0.8;
+  border-color: transparent;
+  color:white;
+  transition: opacity 2s;
+}
+.navbar-default:hover {
+  opacity: 0.9;
+}
+.row-m-t {
+  margin-top: 20px;
+}
+.row-table-head {
+  border-bottom: 2px solid #ddd;
+  margin-bottom:10px;
+}
+.btn-xs-space {
+  margin-right: 5px;
+}
+#home {
+  background-color: #ff6961;
+  background:
+  linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("images/main_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  width:100%;
+  height:100vh;
+  color: white;
+  padding-top:10%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 25px rgba(0,0,0,0.1);
+}
+#home h1 {
+  font-family: 'PT Serif', serif;
+  font-weight:bold;
+}
+.jumbotron-clear {
+  background: transparent;
+}
+.header-jumbo {
+  background: #ff6961;
+  color: white;
+}
+* {
+  font-family: Arial;
+}
+.img-background {
+  background-color: #ff6961;
+  background:
+  linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ), /* Standard syntax (must be last) */
+    url(images/nchs-cover.jpg);
+  background-size: cover;
+  background-position: 50% 0%;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  height: 50vh;
+
+}
+.spicy-background {
+  background-color: #ff6961;
+  background-image: url(images/nchs-cover-sm.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  height: 50vh;
+  margin-bottom:0;
+  transition: background-image 5s;
+}
+.spicy-background:hover {
+  background-image: url(images/nchs-cover-angery-sm.jpg);
+  background-attachment: fixed;
+}
+footer {
+  background: #ff6961;
+  width:100%;
+  padding: 10px 0;
+  text-align: center;
+  color:white;
+}
+.description-box {
+  padding:30px;
+  border: 1px solid white;
+  height:100%;
+  margin-top:15px;
+  background-color: #ff6961;
+  color:white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px white;
+}
+.description-box-outline {
+  padding:30px;
+  border: 1px solid #999;
+  height:100%;
+  margin-top:15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #BBB;
+}
+#upcoming, #about, #contact, #officers, #points {
+  padding-top: 45px;
+  padding-bottom:45px;
+}
+hr {
+  margin-bottom: 0px;
+}
+.spicy-button {
+  margin-top: 5vh;
+  background:white;
+  width:100%;
+  font-size:200px;
+  font-size:10vw;
+  padding:0px;
+}
+.spicy-button:hover {
+  background-size:cover;
+}
+.spicy-button > a:hover {
+  /*color:white;*/
+}
+p,a,td,address {
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5,h6 {
+  font-family: 'PT Serif', serif;
+}
+#officers-out {
+  background: url("images/dark-triangles.png");
+  color:white;
+  background-attachment: fixed;
+}
+#about-out {
+  background: url("images/polaroid.png");
+}
